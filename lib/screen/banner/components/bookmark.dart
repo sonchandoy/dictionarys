@@ -20,12 +20,6 @@ class _BookmarkState extends State<Bookmark> {
     'Abandoned Property',
     '',
     '',
-    // '',
-    // '',
-    // '',
-    // '',
-    // '',
-    // '',
   ];
   @override
   Widget build(BuildContext context) {
