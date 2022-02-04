@@ -1,3 +1,4 @@
+import 'package:dictionary/screen/banner/banner_screen.dart';
 import 'package:dictionary/screen/search/recen_search_screen.dart';
 import 'package:dictionary/screen/searching/searching_screen.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Searching(),
+      home: BannerScreen(),
     );
   }
 }
